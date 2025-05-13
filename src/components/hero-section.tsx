@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
-import { FaUser } from "react-icons/fa";
+import { FaDownload, FaGithub, FaLinkedin, FaPaperPlane, FaUser } from "react-icons/fa";
 
 export function HeroSection() {
   return (
@@ -107,28 +107,30 @@ export function HeroSection() {
           className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
         >
 
-          <button className="w-60 transform rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
+          <button className="transform rounded-xl border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
             <span className="inline-flex items-center gap-2">
-              <FaUser className="inline-block text-lg" />
-              About Me
+              Contact Me
+              <FaPaperPlane className="inline-block text-s" />
             </span>
           </button>
+          <button className="transform rounded-xl border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
+            <span className="inline-flex items-center gap-2">
+              My Resume
+              <FaDownload className="inline-block text-s" />
+            </span>
+          </button>
+          <button className="transform rounded-full border border-gray-300 bg-white px-3 py-3 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
+            <div className="flex h-5 w-5 items-center justify-center">
+              <FaLinkedin className="inline-block text-lg" />
+            </div>
+          </button>
+          <button className="transform rounded-full border bor</div>der-gray-300 bg-white px-3 py-3 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
+            <div className="flex h-5 w-5 items-center justify-center">
+              <FaGithub className="inline-block text-lg" />
+            </div>
+          </button>
         </motion.div>
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 10,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            duration: 0.3,
-            delay: 1.2,
-          }}
-          className="relative z-10 mt-20 rounded-3xl border border-neutral-200 bg-neutral-100 p-4 shadow-md dark:border-neutral-800 dark:bg-neutral-900"
-        ></motion.div>
+
       </div>
     </div>
   );
