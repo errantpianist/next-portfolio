@@ -17,7 +17,7 @@ export function HeroSection() {
       </div>
       <div className="px-4 py-10 md:py-20">
 
-        <h1 className="relative z-10 mx-auto max-w-4xl text-center text-2xl font-bold text-slate-700 md:text-3xl lg:text-5xl dark:text-slate-300">
+        <h1 className="relative z-10 mx-auto max-w-4xl text-center text-2xl font-bold text-slate-700 text-3xl dark:text-slate-300">
           {"Software Engineer | Educator | Musician"
             .split(" ")
             .map((word, index) => (
