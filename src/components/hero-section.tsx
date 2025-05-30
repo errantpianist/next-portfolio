@@ -109,7 +109,6 @@ export function HeroSection() {
 
           <a
             onClick={e => {
-              e.preventDefault();
               const el = document.getElementById('contact');
               if (el) el.scrollIntoView({ behavior: 'smooth' });
             }}
