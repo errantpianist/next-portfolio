@@ -16,7 +16,7 @@ import { motion } from "framer-motion";
 
 export function Projects() {
   return (
-    <section className="flex flex-col items-center justify-center w-full py-8 md:py-10">
+    <section className="flex flex-col items-center justify-center px-6 mx-auto py-8 md:py-10">
       <div className="flex flex-col items-center justify-center w-full max-w-4xl px-4">
         <h2 className="text-3xl md:text-4xl  font-bold mb-6 text-center">Projects</h2>
       </div>
