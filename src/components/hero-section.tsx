@@ -113,22 +113,34 @@ export function HeroSection() {
               <FaPaperPlane className="inline-block text-s" />
             </span>
           </button>
-          <button className="transform rounded-xl border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
+          <a
+            href="/yu_zhou_zhang_resume.pdf"
+            download='yu_zhou_zhang_resume.pdf'
+            className="transform rounded-xl border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900"
+          >
             <span className="inline-flex items-center gap-2">
               My Resume
               <FaDownload className="inline-block text-s" />
             </span>
-          </button>
-          <button className="transform rounded-full border border-gray-300 bg-white px-3 py-3 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
+          </a>
+          <a
+            href="https://www.linkedin.com/in/yu-zhou-z-16907521a"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transform rounded-full border border-gray-300 bg-white px-3 py-3 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
             <div className="flex h-5 w-5 items-center justify-center">
               <FaLinkedin className="inline-block text-lg" />
             </div>
-          </button>
-          <button className="transform rounded-full border bor</div>der-gray-300 bg-white px-3 py-3 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
+          </a>
+          <a
+            href="https://github.com/errantpianist"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transform rounded-full border border-gray-300 bg-white px-3 py-3 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
             <div className="flex h-5 w-5 items-center justify-center">
               <FaGithub className="inline-block text-lg" />
             </div>
-          </button>
+          </a>
         </motion.div>
 
       </div>
