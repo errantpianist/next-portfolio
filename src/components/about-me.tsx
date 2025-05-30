@@ -7,9 +7,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 const AboutMe: React.FC = () => {
   return (
     <section id="about" className="py-12 px-4 md:px-8">
-      <h2 className="text-2xl font-semibold mb-6 text-center">About Me</h2>
+      <h2 className="text-3xl md:text-4xl  font-bold mb-6 text-center">About Me</h2>
       <Card className="max-w-3xl mx-auto p-6 flex flex-col md:flex-row items-center gap-6 border-neutral-200 dark:border-neutral-800 rounded-lg shadow-lg">
-        {/* Avatar or Icon area */}
         <div className="flex-shrink-0">
           <Avatar className="h-24 w-24">
             <AvatarImage src="/me.webp" alt="Yu Zhou" />

@@ -100,7 +100,7 @@ const categoryIconMap: { [key: string]: React.ElementType } = {
 
 export function Skills() {
   return (
-    <section id="skills" className="py-8 md:py-16 px-4">
+    <section id="skills" className="py-8 md:py-10 px-4">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}

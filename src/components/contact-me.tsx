@@ -46,8 +46,8 @@ export function ContactMe() {
     }
   };
   return (
-    <section id="contact" className="py-12 px-4 md:px-8">
-      <h2 className="text-2xl font-semibold mb-6 text-center">Contact Me</h2>
+    <section id="contact" className="py-8 md:py-10 px-4 md:px-8">
+      <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">Contact Me</h2>
       <div className="max-w-3xl mx-auto p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg shadow-lg">
         <p className="mb-8 max-w-xl mx-auto text-sm text-neutral-600 dark:text-neutral-300 text-center">
           Have a question or want to work together? Fill out the form below and I'll get back to you soon.
