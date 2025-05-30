@@ -107,12 +107,18 @@ export function HeroSection() {
           className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
         >
 
-          <button className="transform rounded-xl border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
+          <a
+            onClick={e => {
+              e.preventDefault();
+              const el = document.getElementById('contact');
+              if (el) el.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="transform rounded-xl border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
             <span className="inline-flex items-center gap-2">
               Contact Me
               <FaPaperPlane className="inline-block text-s" />
             </span>
-          </button>
+          </a>
           <a
             href="/yu_zhou_zhang_resume.pdf"
             download='yu_zhou_zhang_resume.pdf'
