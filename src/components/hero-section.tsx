@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
-import { FaDownload, FaGithub, FaLinkedin, FaPaperPlane, FaUser } from "react-icons/fa";
+import { FaDownload, FaGithub, FaLinkedin, FaPaperPlane } from "react-icons/fa";
 
 export function HeroSection() {
   return (
@@ -90,7 +90,7 @@ export function HeroSection() {
           }}
           className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-600 dark:text-neutral-400"
         >
-          I'm Yu Zhou. I build modern web apps using React and TypeScript.
+          I&apos;m Yu Zhou. I build modern web apps using React and TypeScript.
         </motion.p>
 
         <motion.div
@@ -108,7 +108,7 @@ export function HeroSection() {
         >
 
           <a
-            onClick={e => {
+            onClick={() => {
               const el = document.getElementById('contact');
               if (el) el.scrollIntoView({ behavior: 'smooth' });
             }}

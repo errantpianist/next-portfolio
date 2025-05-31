@@ -18,10 +18,9 @@ const AboutMe: React.FC = () => {
 
         <Separator orientation="vertical" className="hidden md:block h-24" />
 
-        {/* Text area */}
         <CardContent className="p-0 space-y-4">
           <p className="text-muted-foreground text-xl">
-            I'm Yu Zhou, a software engineer with a background in classical
+            I&apos;m Yu Zhou, a software engineer with a background in classical
             music and education. After years of teaching and performing, I
             transitioned into tech, drawn by the creative and logical challenges
             of building software. I now focus on crafting elegant, accessible
