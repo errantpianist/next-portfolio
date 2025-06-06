@@ -14,10 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Yu Zhou | Portfolio",
-  description: "A portfolio showcasing the work of Yu Zhou, a software engineer.",
+  description: "Software engineer, educator, musician",
   icons: {
     icon: "/favicon.ico",
-  }
+  },
+  robots: "noindex, nofollow",
 };
 
 export default function RootLayout({
