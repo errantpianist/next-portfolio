@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.7",
-    "@tabler/icons-react": "^3.33.0",
+    "@tabler/icons-react": "^3.34.0",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
     "framer-motion": "^11.18.2",
