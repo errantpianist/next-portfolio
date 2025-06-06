@@ -85,7 +85,7 @@ export function ContactMe() {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
-              className="min-h-[100px] w-full bg-black border border-gray-700 text-white px-3 py-2 rounded-md text-sm focus:outline-none focus:border-gray-500 focus:ring-2 focus:ring-cyan-400"
+              className="min-h-[100px] w-full bg-black border border-gray-700 text-white px-3 py-2 rounded-md text-sm focus:outline-none focus:border-gray-500"
             />
           </LabelInputContainer>
 
