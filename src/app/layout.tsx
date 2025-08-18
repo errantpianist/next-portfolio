@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yu Zhou | Portfolio",
+  title: "Ezoh | Portfolio",
   description: "Software engineer, educator, musician",
   icons: {
     icon: "/favicon.ico",

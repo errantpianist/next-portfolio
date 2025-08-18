@@ -90,7 +90,7 @@ export function HeroSection() {
           }}
           className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-400"
         >
-          I&apos;m Yu Zhou. I build modern web apps using React and TypeScript.
+          I&apos;m Ezoh. I build modern web apps using React and TypeScript.
         </motion.p>
 
         <motion.div

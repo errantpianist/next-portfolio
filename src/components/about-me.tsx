@@ -11,7 +11,7 @@ const AboutMe: React.FC = () => {
       <Card className="max-w-3xl mx-auto p-6 flex flex-col md:flex-row items-center gap-6 border-neutral-800 rounded-lg shadow-lg">
         <div className="flex-shrink-0">
           <Avatar className="h-24 w-24">
-            <AvatarImage src="/me.webp" alt="Yu Zhou" />
+            <AvatarImage src="/me.webp" alt="Ezoh" />
             <AvatarFallback>YZ</AvatarFallback>
           </Avatar>
         </div>
@@ -20,7 +20,7 @@ const AboutMe: React.FC = () => {
 
         <CardContent className="p-0 space-y-4">
           <p className="text-muted-foreground text-xl">
-            I&apos;m Yu Zhou, a software engineer with a background in classical
+            I&apos;m Ezoh, a software engineer with a background in classical
             music and education. After years of teaching and performing, I
             transitioned into tech, drawn by the creative and logical challenges
             of building software. I now focus on crafting elegant, accessible
